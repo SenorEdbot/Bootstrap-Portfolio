@@ -22,14 +22,36 @@
     </nav>
     <main>
       <br>
-        <div class="container bg-white pt-lg-3 pr-lg-5 pb-lg-3 pl-lg-5">
-          <p>text</p>
+      <div class="container bg-white pt-lg-3 pr-lg-5 pb-lg-3 pl-lg-5">
+        <div class="row">
+          <h2 class="headerText pl-lg-3">Contact</h2>
         </div>
+        <hr>
+        <div class="row">
+          <div class="col col-lg-12">
+            <form>
+              <div class="form-group">
+                <label for="contactFormName">Name</label>
+                <input type="text" class="form-control" id="contactFormName" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="contactFormEmail">Email</label>
+                <input type="email" class="form-control" id="contactFormEmail" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="contactFormMessage">Message</label>
+                <textarea id="contactFormMessage" cols="30" rows="7" class="form-control"></textarea>
+              </div>
+              <button class="btn text-white px-lg-3">Submit</button>
+            </form>
+          </div>
+        </div>          
+      </div>
       <br>
     </main>
-    <footer class="container-fluid w-100 py-3">
+    <footer class=footer">
       <div class="container text-center pt-lg-4 text-white">
-          <div>Copyright &#169;</div>
+          <div id="footerCopyright">Copyright &#169;</div>
       </div>
     </footer>
   </body>
