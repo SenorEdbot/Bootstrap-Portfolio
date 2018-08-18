@@ -12,17 +12,18 @@ html {
 }
 body {
     margin-bottom: var(--height-footer); /* Margin bottom by footer height */
+    background-image: url(../images/backgroundTexture.png);
 }
 h1,
 h2,
 .navbar-brand {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
-main {
-    background-image: url(../images/backgroundTexture.png);
-}
 .container {
     max-width: 960px;
+}
+.navbar {
+    background-color: #ffffff;
 }
 footer {
     background-color: #666666;
@@ -56,11 +57,6 @@ hr {
     border-left: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
 }
-.img-thumbnail {
-    border: none;
-    width: 200px;
-    height: 200px;
-}
 .headerText {
     color: #4aaaa5;
 }
@@ -69,16 +65,12 @@ hr {
 }
 .centered {
     position: absolute;
-    width: 90%;
-    top: 80%;
+    width: 89.3%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
     background-color: #4aaaa5;
-}
-img.fluid {
-    max-width: 90%;
-    height: 60%;
 }
 .btn {
     background-color: #4aaaa5;
